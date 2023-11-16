@@ -1,0 +1,1450 @@
+// Custom Sort Rules
+// 1.20.x
+// Note: relocated items are commented out in original location
+// Note2: non-obtainable non-operator creative items are included but commented out
+// Note2a: light block is an exception - it can be placed in survival
+// Note3: spawner is included because of datapack that allows silk touch
+// WIP: custom mob heads (if possible)
+// WIP: mob spawn eggs
+
+@custom
+	@earth
+	@wood
+	@stone
+	@sand
+	@water
+	@winter
+	@nether
+	@end
+	@resource
+	@nature
+	@drops
+	@food
+	@redstone
+	@utility
+	@travel
+	@tool
+	@weapon
+	@armor
+	@book
+	@brewing
+	@sub_sort
+	
+@earth
+	grass_block
+	dirt
+//	farmland
+//	dirt_path
+	coarse_dirt
+	rooted_dirt
+	podzol
+	mycelium
+	moss_block
+	moss_carpet
+	mud
+	packed_mud
+	mud_bricks
+	mud_brick_wall
+	mud_brick_stairs
+	mud_brick_slab
+	mangrove_roots
+	muddy_mangrove_roots
+	clay_ball
+	clay
+	brick
+	bricks
+	brick_wall
+	brick_stairs
+	brick_slab
+	terracotta
+	white_terracotta
+	light_gray_terracotta
+	gray_terracotta
+	black_terracotta
+	yellow_terracotta
+	orange_terracotta
+	brown_terracotta
+	red_terracotta
+	pink_terracotta
+	magenta_terracotta
+	purple_terracotta
+	blue_terracotta
+	light_blue_terracotta
+	cyan_terracotta
+	green_terracotta
+	lime_terracotta
+	white_glazed_terracotta
+	light_gray_glazed_terracotta
+	gray_glazed_terracotta
+	black_glazed_terracotta
+	yellow_glazed_terracotta
+	orange_glazed_terracotta
+	brown_glazed_terracotta
+	red_glazed_terracotta
+	pink_glazed_terracotta
+	magenta_glazed_terracotta
+	purple_glazed_terracotta
+	blue_glazed_terracotta
+	light_blue_glazed_terracotta
+	cyan_glazed_terracotta
+	green_glazed_terracotta
+	lime_glazed_terracotta
+	sculk
+	sculk_shrieker
+	sculk_vein
+
+@wood
+	oak_sapling
+	oak_leaves
+	azalea
+	azalea_leaves
+	flowering_azalea
+	flowering_azalea_leaves
+	oak_log
+	stripped_oak_log
+	oak_wood
+	stripped_oak_wood
+	oak_planks
+	oak_stairs
+	oak_slab
+	petrified_oak_slab
+	oak_fence
+	oak_fence_gate
+	oak_trapdoor
+	oak_door
+	spruce_sapling
+	spruce_leaves
+	spruce_log
+	stripped_spruce_log
+	spruce_wood
+	stripped_spruce_wood
+	spruce_planks
+	spruce_stairs
+	spruce_slab
+	spruce_fence
+	spruce_fence_gate
+	spruce_trapdoor
+	spruce_door
+	birch_sapling
+	birch_leaves
+	birch_log
+	stripped_birch_log
+	birch_wood
+	stripped_birch_wood
+	birch_planks
+	birch_stairs
+	birch_slab
+	birch_fence
+	birch_fence_gate
+	birch_trapdoor
+	birch_door
+	jungle_sapling
+	jungle_leaves
+	jungle_log
+	stripped_jungle_log
+	jungle_wood
+	stripped_jungle_wood
+	jungle_planks
+	jungle_stairs
+	jungle_slab
+	jungle_fence
+	jungle_fence_gate
+	jungle_trapdoor
+	jungle_door
+	acacia_sapling
+	acacia_leaves
+	acacia_log
+	stripped_acacia_log
+	acacia_wood
+	stripped_acacia_wood
+	acacia_planks
+	acacia_stairs
+	acacia_slab
+	acacia_fence
+	acacia_fence_gate
+	acacia_trapdoor
+	acacia_door
+	dark_oak_sapling
+	dark_oak_leaves
+	dark_oak_log
+	stripped_dark_oak_log
+	dark_oak_wood
+	stripped_dark_oak_wood
+	dark_oak_planks
+	dark_oak_stairs
+	dark_oak_slab
+	dark_oak_fence
+	dark_oak_fence_gate
+	dark_oak_trapdoor
+	dark_oak_door
+	mangrove_propagule
+	mangrove_leaves
+	mangrove_log
+	stripped_mangrove_log
+	mangrove_wood
+	stripped_mangrove_wood
+	mangrove_planks
+	mangrove_stairs
+	mangrove_slab
+	mangrove_fence
+	mangrove_fence_gate
+	mangrove_trapdoor
+	mangrove_door
+	cherry_sapling
+	cherry_leaves
+	cherry_log
+	stripped_cherry_log
+	cherry_wood
+	stripped_cherry_wood
+	cherry_planks
+	cherry_stairs
+	cherry_slab
+	cherry_fence
+	cherry_fence_gate
+	cherry_trapdoor
+	cherry_door
+	bamboo
+	bamboo_block
+	stripped_bamboo_block
+	bamboo_planks
+	bamboo_stairs
+	bamboo_slab
+	bamboo_fence
+	bamboo_fence_gate
+	bamboo_trapdoor
+	bamboo_door
+	bamboo_mosaic
+	bamboo_mosaic_stairs
+	bamboo_mosaic_slab
+	red_mushroom
+	brown_mushroom
+	mushroom_stem
+	red_mushroom_block
+	brown_mushroom_block
+	crimson_fungus
+	nether_wart_block
+	crimson_stem
+	stripped_crimson_stem
+	crimson_hyphae
+	stripped_crimson_hyphae
+	crimson_planks
+	crimson_stairs
+	crimson_slab
+	crimson_fence
+	crimson_fence_gate
+	crimson_trapdoor
+	crimson_door
+	warped_fungus
+	warped_wart_block
+	warped_stem
+	stripped_warped_stem
+	warped_hyphae
+	stripped_warped_hyphae
+	warped_planks
+	warped_stairs
+	warped_slab
+	warped_fence
+	warped_fence_gate
+	warped_trapdoor
+	warped_door
+
+@stone
+	cobblestone
+//	infested_cobblestone
+	cobblestone_wall
+	cobblestone_stairs
+	cobblestone_slab
+	mossy_cobblestone
+	mossy_cobblestone_wall
+	mossy_cobblestone_stairs
+	mossy_cobblestone_slab
+	blackstone
+	blackstone_wall
+	blackstone_stairs
+	blackstone_slab
+	polished_blackstone
+	polished_blackstone_wall
+	polished_blackstone_stairs
+	polished_blackstone_slab
+	polished_blackstone_bricks
+	polished_blackstone_brick_wall
+	polished_blackstone_brick_stairs
+	polished_blackstone_brick_slab
+	cracked_polished_blackstone_bricks
+	chiseled_polished_blackstone
+	gilded_blackstone
+	deepslate
+//	infested_deepslate
+	cobbled_deepslate
+	cobbled_deepslate_wall
+	cobbled_deepslate_slab
+	cobbled_deepslate_stairs
+	polished_deepslate
+	polished_deepslate_wall
+	polished_deepslate_slab
+	polished_deepslate_stairs
+	deepslate_bricks
+	deepslate_brick_wall
+	deepslate_brick_slab
+	deepslate_brick_stairs
+	deepslate_tiles
+	deepslate_tile_wall
+	deepslate_tile_slab
+	deepslate_tile_stairs
+	chiseled_deepslate
+	cracked_deepslate_bricks
+	cracked_deepslate_tiles
+//	reinforced_deepslate
+//	bedrock
+	stone
+//	infested_stone
+	stone_stairs
+	stone_slab
+	smooth_stone
+	smooth_stone_slab
+	stone_bricks
+//	infested_stone_bricks
+	stone_brick_wall
+	stone_brick_stairs
+	stone_brick_slab
+	cracked_stone_bricks
+//	infested_cracked_stone_bricks
+	chiseled_stone_bricks
+//	infested_chiseled_stone_bricks
+	mossy_stone_bricks
+//	infested_mossy_stone_bricks
+	mossy_stone_brick_wall
+	mossy_stone_brick_stairs
+	mossy_stone_brick_slab
+	granite
+	granite_wall
+	granite_stairs
+	granite_slab
+	polished_granite
+	polished_granite_stairs
+	polished_granite_slab
+	diorite
+	diorite_wall
+	diorite_stairs
+	diorite_slab
+	polished_diorite
+	polished_diorite_stairs
+	polished_diorite_slab
+	andesite
+	andesite_wall
+	andesite_stairs
+	andesite_slab
+	polished_andesite
+	polished_andesite_stairs
+	polished_andesite_slab
+	basalt
+	polished_basalt
+	smooth_basalt
+	calcite
+	tuff
+	small_amethyst_bud
+	medium_amethyst_bud
+	large_amethyst_bud
+	amethyst_cluster
+	amethyst_shard
+	amethyst_block
+//	budding_amethyst
+	pointed_dripstone
+	dripstone_block
+
+@sand
+	gravel
+	sand
+	sandstone
+	sandstone_wall
+	sandstone_stairs
+	sandstone_slab
+	smooth_sandstone
+	smooth_sandstone_stairs
+	smooth_sandstone_slab
+	cut_sandstone
+	cut_sandstone_slab
+	chiseled_sandstone
+	red_sand
+	red_sandstone
+	red_sandstone_wall
+	red_sandstone_stairs
+	red_sandstone_slab
+	smooth_red_sandstone
+	smooth_red_sandstone_stairs
+	smooth_red_sandstone_slab
+	cut_red_sandstone
+	cut_red_sandstone_slab
+	chiseled_red_sandstone
+	white_concrete_powder
+	light_gray_concrete_powder
+	gray_concrete_powder
+	black_concrete_powder
+	yellow_concrete_powder
+	orange_concrete_powder
+	brown_concrete_powder
+	red_concrete_powder
+	pink_concrete_powder
+	magenta_concrete_powder
+	purple_concrete_powder
+	blue_concrete_powder
+	light_blue_concrete_powder
+	cyan_concrete_powder
+	green_concrete_powder
+	lime_concrete_powder
+	white_concrete
+	light_gray_concrete
+	gray_concrete
+	black_concrete
+	yellow_concrete
+	orange_concrete
+	brown_concrete
+	red_concrete
+	pink_concrete
+	magenta_concrete
+	purple_concrete
+	blue_concrete
+	light_blue_concrete
+	cyan_concrete
+	green_concrete
+	lime_concrete
+	glass
+	glass_pane
+	tinted_glass
+	white_stained_glass
+	light_gray_stained_glass
+	gray_stained_glass
+	black_stained_glass
+	yellow_stained_glass
+	orange_stained_glass
+	brown_stained_glass
+	red_stained_glass
+	pink_stained_glass
+	magenta_stained_glass
+	purple_stained_glass
+	blue_stained_glass
+	light_blue_stained_glass
+	cyan_stained_glass
+	green_stained_glass
+	lime_stained_glass
+	white_stained_glass_pane
+	light_gray_stained_glass_pane
+	gray_stained_glass_pane
+	black_stained_glass_pane
+	yellow_stained_glass_pane
+	orange_stained_glass_pane
+	brown_stained_glass_pane
+	red_stained_glass_pane
+	pink_stained_glass_pane
+	magenta_stained_glass_pane
+	purple_stained_glass_pane
+	blue_stained_glass_pane
+	light_blue_stained_glass_pane
+	cyan_stained_glass_pane
+	green_stained_glass_pane
+	lime_stained_glass_pane
+
+@water
+	prismarine_shard
+	prismarine_crystals
+	prismarine
+	prismarine_wall
+	prismarine_stairs
+	prismarine_slab
+	prismarine_bricks
+	prismarine_brick_stairs
+	prismarine_brick_slab
+	dark_prismarine
+	dark_prismarine_stairs
+	dark_prismarine_slab
+
+@winter
+	ice
+	packed_ice
+	blue_ice
+	snow_block
+	snowball
+	snow
+	powder_snow_bucket
+
+@nether
+	netherrack
+	crimson_nylium
+	warped_nylium
+	magma_block
+	soul_sand
+	soul_soil
+	obsidian
+	crying_obsidian
+	nether_brick
+	nether_bricks
+	nether_brick_wall
+	nether_brick_fence
+	nether_brick_stairs
+	nether_brick_slab
+	chiseled_nether_bricks
+	cracked_nether_bricks
+	red_nether_bricks
+	red_nether_brick_wall
+	red_nether_brick_stairs
+	red_nether_brick_slab
+
+@end
+//	end_portal_frame
+	end_stone
+	end_stone_bricks
+	end_stone_brick_wall
+	end_stone_brick_stairs
+	end_stone_brick_slab
+	chorus_flower
+//	chorus_plant
+	chorus_fruit
+	popped_chorus_fruit
+	purpur_block
+	purpur_stairs
+	purpur_slab
+	purpur_pillar
+
+@resource
+	flint
+	charcoal
+	coal_ore
+	deepslate_coal_ore
+	coal
+	coal_block
+	iron_ore
+	deepslate_iron_ore
+	raw_iron
+	raw_iron_block
+	iron_nugget
+	iron_ingot
+	iron_block
+	gold_ore
+	deepslate_gold_ore
+	nether_gold_ore
+	raw_gold
+	raw_gold_block
+	gold_nugget
+	gold_ingot
+	gold_block
+	lapis_ore
+	deepslate_lapis_ore
+	lapis_lazuli
+	lapis_block
+	redstone_ore
+	deepslate_redstone_ore
+	redstone
+	redstone_block
+	diamond_ore
+	deepslate_diamond_ore
+	diamond
+	diamond_block
+	ancient_debris
+	netherite_scrap
+	netherite_ingot
+	netherite_block
+	emerald_ore
+	deepslate_emerald_ore
+	emerald
+	emerald_block
+	nether_quartz_ore
+	quartz
+	quartz_block
+	quartz_stairs
+	quartz_slab
+	smooth_quartz
+	smooth_quartz_stairs
+	smooth_quartz_slab
+	quartz_pillar
+	chiseled_quartz_block
+	quartz_bricks
+	copper_ore
+	deepslate_copper_ore
+	raw_copper
+	raw_copper_block
+	copper_ingot
+	copper_block
+	waxed_copper_block
+	exposed_copper
+	waxed_exposed_copper
+	weathered_copper
+	waxed_weathered_copper
+	oxidized_copper
+	waxed_oxidized_copper
+	cut_copper
+	cut_copper_stairs
+	cut_copper_slab
+	waxed_cut_copper
+	waxed_cut_copper_stairs
+	waxed_cut_copper_slab
+	exposed_cut_copper
+	exposed_cut_copper_stairs
+	exposed_cut_copper_slab
+	waxed_exposed_cut_copper
+	waxed_exposed_cut_copper_stairs
+	waxed_exposed_cut_copper_slab
+	weathered_cut_copper
+	weathered_cut_copper_stairs
+	weathered_cut_copper_slab
+	waxed_weathered_cut_copper
+	waxed_weathered_cut_copper_stairs
+	waxed_weathered_cut_copper_slab
+	oxidized_cut_copper
+	oxidized_cut_copper_stairs
+	oxidized_cut_copper_slab
+	waxed_oxidized_cut_copper
+	waxed_oxidized_cut_copper_stairs
+	waxed_oxidized_cut_copper_slab
+
+@nature
+	dandelion
+	poppy
+	oxeye_daisy
+	blue_orchid
+	azure_bluet
+	allium
+	cornflower
+	lily_of_the_valley
+	red_tulip
+	orange_tulip
+	pink_tulip
+	white_tulip
+	torchflower_seeds
+	torchflower
+	pitcher_pod
+	pitcher_plant
+	rose_bush
+	lilac
+	peony
+	sunflower
+	wither_rose
+	pink_petals
+	grass
+	tall_grass
+	dead_bush
+	fern
+	large_fern
+	lily_pad
+	seagrass
+	sea_pickle
+	sponge
+	wet_sponge
+	kelp
+	dried_kelp
+	dried_kelp_block
+	tube_coral_block
+	brain_coral_block
+	bubble_coral_block
+	horn_coral_block
+	fire_coral_block
+	tube_coral
+	brain_coral
+	bubble_coral
+	horn_coral
+	fire_coral
+	tube_coral_fan
+	brain_coral_fan
+	bubble_coral_fan
+	horn_coral_fan
+	fire_coral_fan
+	dead_tube_coral_block
+	dead_brain_coral_block
+	dead_bubble_coral_block
+	dead_horn_coral_block
+	dead_fire_coral_block
+	dead_tube_coral
+	dead_brain_coral
+	dead_bubble_coral
+	dead_horn_coral
+	dead_fire_coral
+	dead_tube_coral_fan
+	dead_brain_coral_fan
+	dead_bubble_coral_fan
+	dead_horn_coral_fan
+	dead_fire_coral_fan
+	nether_sprouts
+	crimson_roots
+	warped_roots
+	nether_wart
+	twisting_vines
+	weeping_vines
+	vine
+	glow_lichen
+	cactus
+	sugar_cane
+//	bamboo
+	cocoa_beans
+	small_dripleaf
+	big_dripleaf
+	hanging_roots
+	spore_blossom
+
+@drops
+	white_wool
+	light_gray_wool
+	gray_wool
+	black_wool
+	yellow_wool
+	orange_wool
+	brown_wool
+	red_wool
+	pink_wool
+	magenta_wool
+	purple_wool
+	blue_wool
+	light_blue_wool
+	cyan_wool
+	green_wool
+	lime_wool
+	white_carpet
+	light_gray_carpet
+	gray_carpet
+	black_carpet
+	yellow_carpet
+	orange_carpet
+	brown_carpet
+	red_carpet
+	pink_carpet
+	magenta_carpet
+	purple_carpet
+	blue_carpet
+	light_blue_carpet
+	cyan_carpet
+	green_carpet
+	lime_carpet
+	egg
+	feather
+	rabbit_foot
+	rabbit_hide
+	leather
+	scute
+	turtle_egg
+//	frogspawn
+	ink_sac
+	glow_ink_sac
+	goat_horn
+//	@goat_horn
+	sniffer_egg
+	bone_meal
+	bone
+	bone_block
+	slime_ball
+	slime_block
+	spider_eye
+	string
+	rotten_flesh
+	gunpowder
+	blaze_rod
+	blaze_powder
+	magma_cream
+	ghast_tear
+	ender_pearl
+	ender_eye
+	shulker_shell
+	phantom_membrane
+	nautilus_shell
+	skeleton_skull
+	wither_skeleton_skull
+	zombie_head
+	creeper_head
+	piglin_head
+	dragon_head
+	player_head
+//	@custom_mob_heads
+
+@food
+	sugar
+	cookie
+	cake
+	bowl
+	rabbit_stew
+	mushroom_stew
+	beetroot_soup
+	suspicious_stew
+	wheat_seeds
+	wheat
+	bread
+	hay_block
+	beetroot_seeds
+	beetroot
+	apple
+	golden_apple
+	enchanted_golden_apple
+	pumpkin_seeds
+	pumpkin_pie
+	pumpkin
+	melon_seeds
+	melon_slice
+	melon
+	carrot
+	golden_carrot
+	poisonous_potato
+	potato
+	baked_potato
+	sweet_berries
+	glow_berries
+	tropical_fish
+	cod
+	cooked_cod
+	salmon
+	cooked_salmon
+	rabbit
+	cooked_rabbit
+	chicken
+	cooked_chicken
+	mutton
+	cooked_mutton
+	porkchop
+	cooked_porkchop
+	beef
+	cooked_beef
+
+@redstone
+	dispenser
+	dropper
+	observer
+	hopper
+	piston
+	sticky_piston
+	redstone_lamp
+	target
+	redstone_torch
+	repeater
+	comparator
+	lever
+	tripwire_hook
+	daylight_detector
+	sculk_sensor
+	calibrated_sculk_sensor
+	sculk_catalyst
+	oak_button
+	spruce_button
+	birch_button
+	jungle_button
+	acacia_button
+	dark_oak_button
+	crimson_button
+	warped_button
+	mangrove_button
+	cherry_button
+	bamboo_button
+	stone_button
+	polished_blackstone_button
+	oak_pressure_plate
+	spruce_pressure_plate
+	birch_pressure_plate
+	jungle_pressure_plate
+	acacia_pressure_plate
+	dark_oak_pressure_plate
+	crimson_pressure_plate
+	warped_pressure_plate
+	mangrove_pressure_plate
+	cherry_pressure_plate
+	bamboo_pressure_plate
+	stone_pressure_plate
+	polished_blackstone_pressure_plate
+	light_weighted_pressure_plate
+	heavy_weighted_pressure_plate
+
+@utility
+	crafting_table
+	stonecutter
+	cartography_table
+	smithing_table
+	fletching_table
+	loom
+	grindstone
+	cauldron
+	composter
+	anvil
+	chipped_anvil
+	damaged_anvil
+	bookshelf
+	chiseled_bookshelf
+	lectern
+	enchanting_table
+	brewing_stand
+	furnace
+	blast_furnace
+	smoker
+	campfire
+	soul_campfire
+	chest
+	trapped_chest
+	barrel
+	ender_chest
+	bundle
+	shulker_box
+	white_shulker_box
+	light_gray_shulker_box
+	gray_shulker_box
+	black_shulker_box
+	yellow_shulker_box
+	orange_shulker_box
+	brown_shulker_box
+	red_shulker_box
+	pink_shulker_box
+	magenta_shulker_box
+	purple_shulker_box
+	blue_shulker_box
+	light_blue_shulker_box
+	cyan_shulker_box
+	green_shulker_box
+	lime_shulker_box
+	note_block
+	jukebox
+	armor_stand
+	painting
+	flower_pot
+	item_frame
+	glow_item_frame
+	decorated_pot
+	angler_pottery_sherd
+	archer_pottery_sherd
+	arms_up_pottery_sherd
+	blade_pottery_sherd
+	brewer_pottery_sherd
+	burn_pottery_sherd
+	danger_pottery_sherd
+	explorer_pottery_sherd
+	friend_pottery_sherd
+	heart_pottery_sherd
+	heartbreak_pottery_sherd
+	howl_pottery_sherd
+	miner_pottery_sherd
+	mourner_pottery_sherd
+	plenty_pottery_sherd
+	prize_pottery_sherd
+	sheaf_pottery_sherd
+	shelter_pottery_sherd
+	skull_pottery_sherd
+	snort_pottery_sherd
+	iron_bars
+	chain
+	iron_trapdoor
+	iron_door
+	oak_sign
+	oak_hanging_sign
+	spruce_sign
+	spruce_hanging_sign
+	birch_sign
+	birch_hanging_sign
+	jungle_sign
+	jungle_hanging_sign
+	acacia_sign
+	acacia_hanging_sign
+	dark_oak_sign
+	dark_oak_hanging_sign
+	crimson_sign
+	crimson_hanging_sign
+	warped_sign
+	warped_hanging_sign
+	mangrove_sign
+	mangrove_hanging_sign
+	cherry_sign
+	cherry_hanging_sign
+	bamboo_sign
+	bamboo_hanging_sign
+	white_dye
+	light_gray_dye
+	gray_dye
+	black_dye
+	yellow_dye
+	orange_dye
+	brown_dye
+	red_dye
+	pink_dye
+	magenta_dye
+	purple_dye
+	blue_dye
+	light_blue_dye
+	cyan_dye
+	green_dye
+	lime_dye
+	white_banner
+	light_gray_banner
+	gray_banner
+	black_banner
+	yellow_banner
+	orange_banner
+	brown_banner
+	red_banner
+	pink_banner
+	magenta_banner
+	purple_banner
+	blue_banner
+	light_blue_banner
+	cyan_banner
+	green_banner
+	lime_banner
+	white_bed
+	light_gray_bed
+	gray_bed
+	black_bed
+	yellow_bed
+	orange_bed
+	brown_bed
+	red_bed
+	pink_bed
+	magenta_bed
+	purple_bed
+	blue_bed
+	light_blue_bed
+	cyan_bed
+	green_bed
+	lime_bed
+	respawn_anchor
+	lodestone
+	ladder
+	scaffolding
+	bucket
+	clock
+	compass
+	bell
+	echo_shard
+	recovery_compass
+	carved_pumpkin
+	glowstone_dust
+	light
+	torch
+	soul_torch
+	lantern
+	soul_lantern
+	candle
+	glowstone
+	shroomlight
+	jack_o_lantern
+	end_rod
+	sea_lantern
+	verdant_froglight
+	pearlescent_froglight
+	ochre_froglight
+	white_candle
+	light_gray_candle
+	gray_candle
+	black_candle
+	yellow_candle
+	orange_candle
+	brown_candle
+	red_candle
+	pink_candle
+	magenta_candle
+	purple_candle
+	blue_candle
+	light_blue_candle
+	cyan_candle
+	green_candle
+	lime_candle
+	stick
+	lead
+	name_tag
+	lightning_rod
+	spyglass
+	flower_banner_pattern
+	creeper_banner_pattern	
+	skull_banner_pattern
+	mojang_banner_pattern
+	globe_banner_pattern
+	piglin_banner_pattern
+	cobweb
+	paper
+	map
+	filled_map
+	book
+	writable_book
+	written_book
+	bee_nest
+	beehive
+	honey_bottle
+	honey_block
+	honeycomb
+	honeycomb_block
+	firework_star
+	fire_charge
+	tnt
+	experience_bottle
+	beacon
+	conduit
+	heart_of_the_sea
+	nether_star
+	end_crystal
+	dragon_egg
+	spawner
+//	@spawn_eggs
+	water_bucket
+	lava_bucket
+	milk_bucket
+	cod_bucket
+	salmon_bucket
+	pufferfish_bucket
+	tropical_fish_bucket
+	axolotl_bucket
+	tadpole_bucket
+	disc_fragment_5
+	music_disc_13
+	music_disc_cat
+	music_disc_blocks
+	music_disc_chirp
+	music_disc_far
+	music_disc_mall
+	music_disc_mellohi
+	music_disc_stal
+	music_disc_strad
+	music_disc_ward
+	music_disc_11
+	music_disc_wait
+	music_disc_pigstep
+	music_disc_otherside
+	music_disc_5
+	music_disc_relic
+
+@travel
+	rail
+	powered_rail
+	detector_rail
+	activator_rail
+	minecart
+	furnace_minecart
+	chest_minecart
+	hopper_minecart
+	tnt_minecart
+	oak_boat
+	oak_chest_boat
+	spruce_boat
+	spruce_chest_boat
+	birch_boat
+	birch_chest_boat
+	jungle_boat
+	jungle_chest_boat
+	acacia_boat
+	acacia_chest_boat
+	dark_oak_boat
+	dark_oak_chest_boat
+	mangrove_boat
+	mangrove_chest_boat
+	cherry_boat
+	cherry_chest_boat
+	bamboo_raft
+	bamboo_chest_raft
+	leather_horse_armor
+	iron_horse_armor
+	golden_horse_armor
+	diamond_horse_armor
+	saddle
+	carrot_on_a_stick
+	warped_fungus_on_a_stick
+
+@tool
+	wooden_shovel
+	wooden_axe
+	wooden_pickaxe
+	wooden_hoe
+	stone_shovel
+	stone_axe
+	stone_pickaxe
+	stone_hoe
+	golden_shovel
+	golden_axe
+	golden_pickaxe
+	golden_hoe
+	iron_shovel
+	iron_axe
+	iron_pickaxe
+	iron_hoe
+	diamond_shovel
+	diamond_axe
+	diamond_pickaxe
+	diamond_hoe
+	netherite_shovel
+	netherite_axe
+	netherite_pickaxe
+	netherite_hoe
+	fishing_rod
+	flint_and_steel
+	shears
+	brush
+	totem_of_undying
+
+@weapon
+	wooden_sword
+	stone_sword
+	golden_sword
+	iron_sword
+	diamond_sword
+	netherite_sword
+	trident
+	bow
+	crossbow
+	arrow
+	spectral_arrow
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:fire_resistance"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_fire_resistance"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:water_breathing"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_water_breathing"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:healing"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_healing"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:regeneration"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_regeneration"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_regeneration"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strength"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_strength"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_strength"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:swiftness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_swiftness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_swiftness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:leaping"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_leaping"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_leaping"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:night_vision"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_night_vision"}, allow_extra = true)	
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:slow_falling"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_slow_falling"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:weakness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_weakness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:invisibility"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_invisibility"}, allow_extra = true)	
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:harming"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_harming"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:slowness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_slowness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_slowness"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:poison"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_poison"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_poison"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:turtle_master"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:long_turtle_master"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:strong_turtle_master"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow, require_nbt = required, nbt = {Potion:"minecraft:luck"}, allow_extra = true)
+	::is_item(item_name = tipped_arrow)
+
+@armor
+	leather_helmet
+	leather_chestplate
+	leather_leggings
+	leather_boots
+	golden_helmet
+	golden_chestplate
+	golden_leggings
+	golden_boots
+	chainmail_helmet
+	chainmail_chestplate
+	chainmail_leggings
+	chainmail_boots
+	iron_helmet
+	iron_chestplate
+	iron_leggings
+	iron_boots
+	diamond_helmet
+	diamond_chestplate
+	diamond_leggings
+	diamond_boots
+	netherite_helmet
+	netherite_chestplate
+	netherite_leggings
+	netherite_boots
+	turtle_helmet
+	elytra
+	firework_rocket
+	shield
+	netherite_upgrade_smithing_template
+	sentry_armor_trim_smithing_template
+	vex_armor_trim_smithing_template
+	wild_armor_trim_smithing_template
+	coast_armor_trim_smithing_template
+	dune_armor_trim_smithing_template
+	wayfinder_armor_trim_smithing_template
+	raiser_armor_trim_smithing_template
+	shaper_armor_trim_smithing_template
+	host_armor_trim_smithing_template
+	ward_armor_trim_smithing_template
+	silence_armor_trim_smithing_template
+	tide_armor_trim_smithing_template
+	snout_armor_trim_smithing_template
+	rib_armor_trim_smithing_template
+	eye_armor_trim_smithing_template
+	spire_armor_trim_smithing_template
+
+@book
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:binding_curse"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:vanishing_curse"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:unbreaking"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:mending"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:luck_of_the_sea"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:lure"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:efficiency"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:silk_touch"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:fortune"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:protection"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:fire_protection"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:blast_protection"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:projectile_protection"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:thorns"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:respiration"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:aqua_affinity"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:swift_sneak"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:feather_falling"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:depth_strider"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:frost_walker"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:soul_speed"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:sharpness"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:smite"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:bane_of_arthropods"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:knockback"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:fire_aspect"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:looting"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:sweeping"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:loyalty"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:impaling"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:riptide"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:channeling"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:power"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:punch"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:flame"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:infinity"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:quick_charge"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:piercing"}]}, allow_extra = true)
+	::is_item(item_name = enchanted_book, require_nbt = required, nbt = {StoredEnchantments:[{id:"minecraft:multishot"}]}, allow_extra = true)
+	enchanted_book
+
+@brewing
+	glass_bottle
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:water"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:water"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:water"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:awkward"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:awkward"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:awkward"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:mundane"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:mundane"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:mundane"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:thick"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:thick"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:thick"}, allow_extra = true)
+	dragon_breath
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:fire_resistance"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_fire_resistance"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:fire_resistance"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_fire_resistance"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:fire_resistance"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_fire_resistance"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:water_breathing"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_water_breathing"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:water_breathing"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_water_breathing"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:water_breathing"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_water_breathing"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:healing"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_healing"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:healing"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_healing"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:healing"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_healing"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:regeneration"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_regeneration"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_regeneration"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:regeneration"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_regeneration"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_regeneration"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:regeneration"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_regeneration"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_regeneration"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strength"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_strength"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_strength"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strength"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_strength"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_strength"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strength"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_strength"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_strength"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:swiftness"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_swiftness"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_swiftness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:swiftness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_swiftness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_swiftness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:swiftness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_swiftness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_swiftness"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:leaping"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_leaping"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_leaping"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:leaping"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_leaping"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_leaping"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:leaping"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_leaping"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_leaping"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:night_vision"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_night_vision"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:night_vision"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_night_vision"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:night_vision"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_night_vision"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:slow_falling"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_slow_falling"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:slow_falling"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_slow_falling"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:slow_falling"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_slow_falling"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:weakness"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_weakness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:weakness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_weakness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:weakness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_weakness"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:invisibility"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_invisibility"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:invisibility"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_invisibility"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:invisibility"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_invisibility"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:harming"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_harming"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:harming"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_harming"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:harming"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_harming"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:slowness"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_slowness"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_slowness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:slowness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_slowness"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_slowness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:slowness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_slowness"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_slowness"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:poison"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_poison"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_poison"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:poison"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_poison"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_poison"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:poison"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_poison"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_poison"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:turtle_master"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:long_turtle_master"}, allow_extra = true)
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:strong_turtle_master"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:turtle_master"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:long_turtle_master"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_turtle_master"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:turtle_master"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:long_turtle_master"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:strong_turtle_master"}, allow_extra = true)	
+	::is_item(item_name = potion, require_nbt = required, nbt = {Potion:"minecraft:luck"}, allow_extra = true)
+	::is_item(item_name = splash_potion, require_nbt = required, nbt = {Potion:"minecraft:luck"}, allow_extra = true)
+	::is_item(item_name = lingering_potion, require_nbt = required, nbt = {Potion:"minecraft:luck"}, allow_extra = true)
+	::is_item(item_name = potion)
+	::is_item(item_name = splash_potion)
+	::is_item(item_name = lingering_potion)
+
+//@goat_horn
+
+//@spawn_eggs
+
+//@custom_mob_heads
+
+@sub_sort
+	::durability
+	::enchantments_score
