@@ -1,7 +1,7 @@
 # IPN-rules-config
 Inventory Profiles Next mod - rules config text file
 
-Current Minecraft version: 1.20.x
+Current Minecraft version: 1.20-1.20.2
 
 This document REQUIRES the Inventory Profiles Next mod for Minecraft
 The Minecraft version must be the same to avoid errors
