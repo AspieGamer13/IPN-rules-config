@@ -1,11 +1,12 @@
 // Custom Sort Rules
-// 1.20.x
-// Note: relocated items are commented out in original location
-// Note2: non-obtainable non-operator creative items are included but commented out
-// Note2a: light block is an exception - it can be placed in survival
-// Note3: spawner is included because of datapack that allows silk touch
-// WIP: custom mob heads (if possible)
-// WIP: mob spawn eggs
+// 1.20.3-1.20.4
+// Note: non-obtainable non-operator creative items are included but commented out
+// Note2: light_block and [mob] spawner are not commented out because my personal server uses them
+// WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
+
+// This file provides a base template that can be customized
+// Just cut entire lines and paste where you want them
+// Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
 @custom
 	@earth
@@ -619,7 +620,7 @@
 	sunflower
 	wither_rose
 	pink_petals
-	grass
+	short_grass
 	tall_grass
 	dead_bush
 	fern
@@ -672,7 +673,6 @@
 	glow_lichen
 	cactus
 	sugar_cane
-//	bamboo
 	cocoa_beans
 	small_dripleaf
 	big_dripleaf
