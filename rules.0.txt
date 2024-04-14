@@ -1,29 +1,37 @@
 // Custom Sort Rules
-// 1.20.3-1.20.4
+// 1.20.5
 // Note: non-obtainable non-operator creative items are included but commented out
-// Note2: light_block and [mob] spawner are not commented out because my personal server uses them
+// Note2: light_block and [mob] spawner are included & not commented out because my personal server uses them
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
 
 // This file provides a base template that can be customized
 // Just cut entire lines and paste where you want them
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
+// Changes:
+//  Scute -> Turtle Scute
+//  Added Armadillo Scute
+//  Added Wolf Armor
+//  Moved @sand after @earth
+//  Moved @resource before @redstone
+//  Moved @travel after @redstone
+
 @custom
 	@earth
+	@sand
 	@wood
 	@stone
-	@sand
 	@water
 	@winter
 	@nether
 	@end
-	@resource
 	@nature
 	@drops
 	@food
+	@resource
 	@redstone
-	@utility
 	@travel
+	@utility
 	@tool
 	@weapon
 	@armor
@@ -717,7 +725,7 @@
 	rabbit_foot
 	rabbit_hide
 	leather
-	scute
+	turtle_scute
 	turtle_egg
 //	frogspawn
 	ink_sac
@@ -725,6 +733,7 @@
 	goat_horn
 //	@goat_horn
 	sniffer_egg
+	armadillo_scute
 	bone_meal
 	bone
 	bone_block
@@ -1246,6 +1255,7 @@
 	elytra
 	firework_rocket
 	shield
+	wolf_armor
 	netherite_upgrade_smithing_template
 	sentry_armor_trim_smithing_template
 	vex_armor_trim_smithing_template
