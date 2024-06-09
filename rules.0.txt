@@ -14,7 +14,7 @@
 //  Moved several items around
 //  Added comments for item groups througout
 //  Added missing items
-//  TODO: update with new NBT format
+//  Updated with new NBT format
 //   1.20.5/6
 //  Changed scute to turtle_scute
 //  Added new items
