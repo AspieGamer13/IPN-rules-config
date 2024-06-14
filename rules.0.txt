@@ -12,7 +12,7 @@
 //   General
 //	Moved various sections around under @custom
 //  Moved several items around
-//  Added comments for item groups througout
+//  Added comments for item sub-groups throughout
 //  Added missing items
 //  Updated with new NBT format
 //   1.20.5/6
