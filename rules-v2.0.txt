@@ -1,7 +1,7 @@
 // Custom Sort Rules
-// 1.21 (WIP)
-// Note: non-obtainable non-operator creative items are included but commented out
-// Note2: light_block and [mob] spawner are included & not commented out because my personal server uses them
+// 1.21.2
+// Note: some non-obtainable creative items are included but commented out
+// Note2: [mob] spawner is included & not commented out because my personal server uses it
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
 
 // This file provides a base template that can be customized
@@ -9,17 +9,12 @@
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
 // Changes:
-//   General
-//	Moved various sections around under @custom
-//  Moved several items around
-//  Added comments for item sub-groups throughout
-//  Added missing items
-//  Updated with new NBT format
-//   1.20.5/6
-//  Changed scute to turtle_scute
-//  Added new items
-//   1.21
-//  Added new items
+//  General
+//    commented out light [block]
+//      lines up with other non-obtainable creative items
+//      my server no longer uses this
+//  1.21.2
+//    Added colored bundles
 
 @custom
 	@earth
@@ -1160,7 +1155,7 @@
 // Light Sources
 	carved_pumpkin
 	glowstone_dust
-	light
+//	light
 	torch
 	soul_torch
 	lantern
