@@ -1,5 +1,5 @@
 // Custom Sort Rules
-// 1.21.2
+// 1.21.4
 // Note: some non-obtainable creative items are included but commented out
 // Note2: [mob] spawner is included & not commented out because my personal server uses it
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
@@ -9,12 +9,13 @@
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
 // Changes:
-//  General
-//    commented out light [block]
-//      lines up with other non-obtainable creative items
-//      my server no longer uses this
-//  1.21.2
-//    Added colored bundles
+//   1.21.4
+//     Added Pale Oak blocks and items
+//     Added Creaking Heart
+//     Added Resin blocks and items
+//     Added Pale Moss Block and Carpet
+//     Added Pale Hanging Moss
+//     Added Open and Closed Eye Blossoms
 
 @custom
 	@earth
@@ -48,8 +49,12 @@
 	podzol
 //	dirt_path
 	rooted_dirt
+// Moss
 	moss_block
 	moss_carpet
+	pale_moss_block
+	pale_moss_carpet
+// Mud
 	mud
 	packed_mud
 	mangrove_roots
@@ -58,9 +63,20 @@
 	mud_brick_stairs
 	mud_brick_slab
 	mud_brick_wall
+// Skulk
 	sculk
 	sculk_vein
 	sculk_shrieker
+// Resin
+	resin_clump
+	resin_block
+	resin_brick
+	resin_bricks
+	resin_brick_stairs
+	resin_brick_slab
+	resin_brick_wall
+	chiseled_resin_bricks
+// Clay/Brick
 	clay_ball
 	clay
 	brick
@@ -269,6 +285,20 @@
 	bamboo_mosaic
 	bamboo_mosaic_stairs
 	bamboo_mosaic_slab
+// Pale Oak
+	pale_oak_sapling
+	pale_oak_leaves
+	pale_oak_log
+	pale_oak_wood
+	stripped_pale_oak_log
+	stripped_pale_oak_wood
+	pale_oak_planks
+	pale_oak_stairs
+	pale_oak_slab
+	pale_oak_fence
+	pale_oak_fence_gate
+	pale_oak_door
+	pale_oak_trapdoor
 
 @stone
 // Cobblestone
@@ -709,6 +739,8 @@
 	torchflower
 	pitcher_pod
 	pitcher_plant
+	open_eyeblossom
+	closed_eyeblossom
 	rose_bush
 	lilac
 	peony
@@ -731,6 +763,7 @@
 	big_dripleaf
 	hanging_roots
 	spore_blossom
+	pale_hanging_moss
 	cobweb
 // Ocean Plants
 	lily_pad
@@ -943,6 +976,7 @@
 	mangrove_button
 	cherry_button
 	bamboo_button
+	pale_oak_button
 	stone_button
 	polished_blackstone_button
 // Pressure Plates
@@ -957,6 +991,7 @@
 	mangrove_pressure_plate
 	cherry_pressure_plate
 	bamboo_pressure_plate
+	pale_oak_pressure_plate
 	stone_pressure_plate
 	polished_blackstone_pressure_plate
 	light_weighted_pressure_plate
@@ -1079,6 +1114,8 @@
 	cherry_hanging_sign
 	bamboo_sign
 	bamboo_hanging_sign
+	pale_oak_sign
+	pale_oak_hanging_sign
 // Dyes
 	white_dye
 	light_gray_dye
@@ -1220,6 +1257,7 @@
 	beacon
 	heart_of_the_sea
 	conduit
+	creaking_heart
 	spawner
 //	trial_spawner
 //	vault
@@ -1276,6 +1314,8 @@
 	cherry_chest_boat
 	bamboo_raft
 	bamboo_chest_raft
+	pale_oak_boat
+	pale_oak_chest_boat
 // Mob
 	saddle
 	leather_horse_armor
