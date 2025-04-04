@@ -996,6 +996,22 @@
 	barrel
 	ender_chest
 	bundle
+	white_bundle
+	light_gray_bundle
+	gray_bundle
+	black_bundle
+	yellow_bundle
+	orange_bundle
+	brown_bundle
+	red_bundle
+	pink_bundle
+	magenta_bundle
+	purple_bundle
+	blue_bundle
+	light_blue_bundle
+	cyan_bundle
+	green_bundle
+	lime_bundle
 	shulker_box
 	white_shulker_box
 	light_gray_shulker_box
