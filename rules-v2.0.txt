@@ -1,5 +1,5 @@
 // Custom Sort Rules
-// 1.21.4
+// 1.21.5
 // Note: some non-obtainable creative items are included but commented out
 // Note2: [mob] spawner is included & not commented out because my personal server uses it
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
@@ -9,13 +9,12 @@
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
 // Changes:
-//   1.21.4
-//     Added Pale Oak blocks and items
-//     Added Creaking Heart
-//     Added Resin blocks and items
-//     Added Pale Moss Block and Carpet
-//     Added Pale Hanging Moss
-//     Added Open and Closed Eye Blossoms
+//   1.21.5
+//     Added Wildflowers & Leaf Litter
+//     Added Bush & Firefly Bush
+//     Added Cactus Flower
+//     Added Short & Tall Dry Grass
+//     Added Brown & Blue Egg
 
 @custom
 	@earth
@@ -745,15 +744,22 @@
 	lilac
 	peony
 	sunflower
+	cactus_flower
 	pink_petals
+	wildflowers
+	leaf_litter
 	wither_rose
 // Grasses
 	short_grass
 	tall_grass
+	short_dry_grass
+	tall_dry_grass
 	dead_bush
 	fern
 	large_fern
 // Land Plants
+	bush
+	firefly_bush
 	cactus
 	sugar_cane
 	cocoa_beans
@@ -849,6 +855,8 @@
 	lime_carpet
 // Other Passive
 	egg
+	blue_egg
+	brown_egg
 	feather
 	rabbit_foot
 	rabbit_hide
