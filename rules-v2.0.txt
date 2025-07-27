@@ -1,5 +1,5 @@
 // Custom Sort Rules
-// 1.21.5
+// 1.21.6
 // Note: some non-obtainable creative items are included but commented out
 // Note2: [mob] spawner is included & not commented out because my personal server uses it
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
@@ -9,12 +9,10 @@
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
 // Changes:
-//   1.21.5
-//     Added Wildflowers & Leaf Litter
-//     Added Bush & Firefly Bush
-//     Added Cactus Flower
-//     Added Short & Tall Dry Grass
-//     Added Brown & Blue Egg
+//   1.21.6
+//     Added Dried Ghast (Block)
+//     Added Harness (All Colors)
+//     Added Music Disc - Tears
 
 @custom
 	@earth
@@ -869,6 +867,7 @@
 	glow_ink_sac
 	turtle_egg
 	turtle_scute
+	dried_ghast
 //	frogspawn
 // Hostile: Overworld
 	bone_meal
@@ -1291,6 +1290,7 @@
 	music_disc_precipice
 	music_disc_creator
 	music_disc_creator_music_box
+	music_disc_tears
 
 @travel
 // Minecart
@@ -1332,6 +1332,22 @@
 	diamond_horse_armor
 	carrot_on_a_stick
 	warped_fungus_on_a_stick
+	white_harness
+	light_gray_harness
+	gray_harness
+	black_harness
+	yellow_harness
+	orange_harness
+	brown_harness
+	red_harness
+	pink_harness
+	magenta_harness
+	purple_harness
+	blue_harness
+	light_blue_harness
+	cyan_harness
+	green_harness
+	lime_harness
 
 @tool
 	flint_and_steel
