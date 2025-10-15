@@ -1,5 +1,5 @@
 // Custom Sort Rules
-// 1.21.7
+// WIP 1.21.9-1.21.10
 // Note: some non-obtainable creative items are included but commented out
 // Note2: [mob] spawner is included & not commented out because my personal server uses it
 // WIP: custom mob heads (if possible), mob spawn eggs, goat horns (DO NOT UNCOMMENT THE @ LINES)
@@ -8,9 +8,22 @@
 // Just cut entire lines and paste where you want them
 // Easiest change is just re-ordering the categories in @custom (LEAVE @sub_sort LAST)
 
-// Changes:
-//   1.21.6
-//     Added Music Disc - Lava Chicken
+// Changes (WIP):
+//   1.21.9
+//     Copper Chest + Waxed & Oxidized variants
+//     Copper Golem Statue + Waxed & Oxidized variants
+//     Copper Lightning Rod Waxed & Oxidized variants
+//     Copper Bars + Waxed & Oxidized variants
+//     Copper Chain + Waxed & Oxidized variants
+//     Rename Chain -> Iron Chain
+//     Copper Torch
+//     Copper Lantern + Waxed & Oxidized variants
+//     Copper Nugget
+//     Copper Horse Armor
+//     Copper Sword
+//     Copper Tools (Axe, Pickaxe, Shovel, Hoe)
+//     Copper Armor (Helmet, Chestplate, Leggings, Boots)
+//     Wood Shelf (Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Crimson, Warped, Mangrove, Cherry, Bamboo, Pale Oak)
 
 @custom
 	@earth
@@ -1745,3 +1758,4 @@
 @sub_sort
 	::durability
 	::enchantments_score
+
