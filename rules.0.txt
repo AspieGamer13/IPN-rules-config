@@ -8,7 +8,7 @@
 //   Re-ordered master list (match future version change)
 //   Re-ordered items (match future version change)
 //   Commented-out sub-categories (match future version change)
-//   Added mob spawn eggs (based on 1.21.11 sort) - WIP
+//   Added mob spawn eggs (based on 1.21.11 sort) - WIP (need to delete mobs added 1.20.3+)
 
 @custom
 	@earth
@@ -1136,7 +1136,7 @@
 	heart_of_the_sea
 	conduit
 	spawner
-//	@spawn_eggs
+	@spawn_eggs
 // Music
 	disc_fragment_5
 	music_disc_13
@@ -1553,10 +1553,110 @@
 
 //@goat_horn
 
-//@spawn_eggs
+@spawn_eggs
+// Farm Animals
+	chicken_spawn_egg
+	cow_spawn_egg
+	pig_spawn_egg
+	sheep_spawn_egg
+	rabbit_spawn_egg
+// Mounts
+	horse_spawn_egg
+	donkey_spawn_egg
+	mule_spawn_egg
+	llama_spawn_egg
+	camel_spawn_egg
+	strider_spawn_egg
+	happy_ghast_spawn_egg
+// Pets
+	cat_spawn_egg
+	parrot_spawn_egg
+	wolf_spawn_egg
+// Wild Animals
+	bat_spawn_egg
+	bee_spawn_egg
+	armadillo_spawn_egg
+	ocelot_spawn_egg
+	panda_spawn_egg
+	fox_spawn_egg
+	goat_spawn_egg
+	polar_bear_spawn_egg
+// Aquatic
+	salmon_spawn_egg
+	cod_spawn_egg
+	tropical_fish_spawn_egg
+	pufferfish_spawn_egg
+	dolphin_spawn_egg
+	nautilus_spawn_egg
+	squid_spawn_egg
+	glow_squid_spawn_egg
+	axolotl_spawn_egg
+	tadpole_spawn_egg
+	frog_spawn_egg
+	turtle_spawn_egg
+// Misc (Passive)
+	mooshroom_spawn_egg
+	allay_spawn_egg
+	sniffer_spawn_egg
+// Golems
+	snow_golem_spawn_egg
+	iron_golem_spawn_egg
+	copper_golem_spawn_egg
+// Villagers
+	villager_spawn_egg
+	wandering_trader_spawn_egg
+	trader_llama_spawn_egg
+// Undead
+	zombie_spawn_egg
+	zombie_villager_spawn_egg
+	drowned_spawn_egg
+	husk_spawn_egg
+	skeleton_spawn_egg
+	stray_spawn_egg
+	bogged_spawn_egg
+	parched_spawn_egg
+	zombie_horse_spawn_egg
+	camel_husk_spawn_egg
+	zombie_nautilus_spawn_egg
+	skeleton_horse_spawn_egg
+// Spiders
+	spider_spawn_egg
+	cave_spider_spawn_egg
+// Monsters
+	creeper_spawn_egg
+	slime_spawn_egg
+	witch_spawn_egg
+	silverfish_spawn_egg
+	guardian_spawn_egg
+	elder_guardian_spawn_egg
+	phantom_spawn_egg
+	warden_spawn_egg
+	breeze_spawn_egg
+	creaking_spawn_egg
+// Illagers
+	pillager_spawn_egg
+	vindicator_spawn_egg
+	evoker_spawn_egg
+	vex_spawn_egg
+	ravager_spawn_egg
+// Nether
+	ghast_spawn_egg
+	magma_cube_spawn_egg
+	blaze_spawn_egg
+	wither_skeleton_spawn_egg
+	zombified_piglin_spawn_egg
+	piglin_spawn_egg
+	piglin_brute_spawn_egg
+	hoglin_spawn_egg
+	zoglin_spawn_egg
+// End
+	enderman_spawn_egg
+	endermite_spawn_egg
+	shulker_spawn_egg
 
 //@custom_mob_heads
 
 @sub_sort
 	::durability
 	::enchantments_score
+
